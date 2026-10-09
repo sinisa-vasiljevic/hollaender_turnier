@@ -1,3 +1,3 @@
-Holländer-Turnier PWA Version 1.0.1
-Vollständige Standalone-Version mit Turniereinrichtung, Spieler- und Feldverwaltung, Fixierungen, fairem Generator, Spielplan, Ergebnissen, Rangliste, Backup und Offline-Cache.
-Für iPhone über HTTPS bereitstellen und in Safari: Teilen > Zum Home-Bildschirm.
+Holländer-Turnier PWA Version 1.0.2
+
+Für das neue Icon den alten Home-Bildschirm-Eintrag löschen, Version 1.0.2 über HTTPS in Safari öffnen und erneut über Teilen > Zum Home-Bildschirm installieren.
