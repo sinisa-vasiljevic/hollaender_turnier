@@ -1,5 +1,10 @@
-Holländer-Turnier PWA Version 1.0.6 - vollständig geprüfte Basis
+Holländer-Turnier PWA Version 1.0.8
 
-Diese Version ist zum Überschreiben der vorhandenen GitHub-Dateien gedacht. Es ist kein Löschen des Repositorys nötig.
+Änderung beim Start eines neuen Turniers:
+- Spieler bleiben erhalten.
+- Torhüterrollen bleiben erhalten.
+- Feld- und Seitenfixierungen bleiben erhalten.
+- Felder und Mannschaftsgrößen bleiben erhalten.
+- Nur Spielplan und Ergebnisse werden zurückgesetzt.
 
-Geprüft: Turniereinrichtung, Spieler/Felder/Fixierungen, faire Verteilung, Team A/B, Mitspieler, Gegner, Pausen, Torhüter, Ergebnisse, Holländer-Wertung, Rangliste, CSV-Export, Backup, Wiederherstellung, neues Turnier, Offline-Dateien und iPhone-Icon.
+Die Mehrfacheingabe von Namen ist jetzt optional eingeklappt und verständlich erklärt.

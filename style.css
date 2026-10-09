@@ -17,3 +17,12 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .newTournament .warn{width:100%;padding:14px}
 .tableWrap th,.tableWrap td{position:static!important;left:auto!important}
 @media(max-width:390px){.team .identity{font-size:12px}.tw{font-size:10px;padding:1px 5px}.goalie .identity{padding:3px 4px}}
+
+/* Version 1.0.8 */
+.bulkBox{margin-top:10px;border:1px solid #cbd5e1;border-radius:14px;padding:10px;background:#f8fafc}
+.bulkBox summary{cursor:pointer;font-weight:800;color:#1d4ed8;list-style:none}
+.bulkBox summary::-webkit-details-marker{display:none}
+.bulkBox summary:before{content:"+ ";font-weight:900}
+.bulkBox[open] summary:before{content:"− "}
+.bulkBox textarea{width:100%;margin-top:10px;resize:vertical}
+.bulkBox button{margin-top:8px}
