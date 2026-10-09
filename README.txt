@@ -1,3 +1,14 @@
-Holländer-Turnier PWA Version 1.0.2
+Holländer-Turnier PWA Version 1.0.3
 
-Für das neue Icon den alten Home-Bildschirm-Eintrag löschen, Version 1.0.2 über HTTPS in Safari öffnen und erneut über Teilen > Zum Home-Bildschirm installieren.
+Saubere Upload-Struktur für GitHub Pages. Inhalt dieses Ordners direkt in das Repository hochladen.
+
+Enthalten:
+- vollständige Turnierverwaltung und Fairnessgenerator
+- feste untere Navigation
+- gelbe Torhüterkennzeichnung
+- Ergebnis- und Punkteberechnung
+- Ranglistenexport als Excel-kompatible CSV
+- Backup und Wiederherstellung
+- Offline-Nutzung und iPhone-App-Icon
+
+Wichtig: Alte Dateien im Repository vorher vollständig löschen, damit keine Dateien verschiedener Versionen gemischt werden. Danach nur den Inhalt dieses Ordners hochladen.
