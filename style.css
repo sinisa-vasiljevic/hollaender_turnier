@@ -27,12 +27,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .bulkBox textarea{width:100%;margin-top:10px;resize:vertical}
 .bulkBox button{margin-top:8px}
 
-/* Version 1.0.9: Symbolnavigation */
-nav{overflow-x:hidden;align-items:stretch}
-nav button{min-width:0!important;min-height:70px;padding:7px 1px 9px!important;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border-right:1px solid #eef2f7!important;background:#fff}
-nav button:last-child{border-right:0!important}
-.navIcon{display:flex;align-items:center;justify-content:center;width:26px;height:26px;font-size:21px;line-height:1;font-weight:900}
-.navLabel{display:block;font-size:10px;line-height:1;font-weight:800;white-space:nowrap}
-nav button.on{color:#047857;background:#ecfdf5}
-nav button.on .navIcon{transform:scale(1.1)}
-@media(max-width:390px){.navLabel{font-size:9px}.navIcon{font-size:19px}}
+/* Version 1.0.11 */
+main{padding-bottom:170px}
+nav{overflow-x:hidden;align-items:stretch}nav button{min-width:0!important;min-height:70px;padding:7px 1px 9px!important;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border-right:1px solid #eef2f7!important;background:#fff}nav button:last-child{border-right:0!important}.navIcon{display:flex;align-items:center;justify-content:center;width:26px;height:26px;font-size:21px;line-height:1;font-weight:900}.navLabel{display:block;font-size:10px;line-height:1;font-weight:800;white-space:nowrap}nav button.on{color:#047857;background:#ecfdf5}nav button.on .navIcon{transform:scale(1.1)}
+.person{font-size:17px;line-height:1.36;margin-top:8px}.identity{font-size:17px!important;font-weight:750}.team>b{font-size:14px}.game{padding:16px}.card h3{font-size:22px}.scorebox{gap:14px}.score{gap:7px}.score button{width:50px;height:52px;font-size:25px}.score input{width:68px;height:52px;font-size:27px!important;padding:5px}
+.wizard{position:fixed!important;left:10px!important;right:10px!important;bottom:calc(70px + env(safe-area-inset-bottom))!important;z-index:29!important;margin:0!important;padding:10px!important;background:#fffffff7!important;box-shadow:0 -5px 22px #0f172a2b!important;border-radius:16px 16px 0 0!important}.wizard button{min-height:58px;font-size:17px;padding:10px}
+@media(max-width:390px){.navLabel{font-size:9px}.navIcon{font-size:19px}.person,.identity{font-size:16px!important}.score button{width:48px}.score input{width:64px}.wizard button{font-size:16px}}
