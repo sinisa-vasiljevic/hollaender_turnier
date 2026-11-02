@@ -1,14 +1,15 @@
-Holländer-Turnier PWA Version 1.1.4
+Holländer-Turnier V1.1.5
 
-Änderungen:
-- Navigator bleibt beim Eintragen von Ergebnissen fest unten.
-- Navigation wird nach Rückkehr aus dem Hintergrund neu aufgebaut.
-- Rückmeldung nach dem Hinzufügen eines Spielers.
-- Planqualität bewertet den vollständigen Plan im Voraus: Mitspieler 40 %, Gegner 30 %, Felder 15 %, Team A/B 10 %, Torhüter 5 %.
-- Tatsächliche Turnierpunkte inklusive Torbonus werden in der Saisonwertung summiert.
-- Turniere können vollständig oder vorzeitig archiviert werden. Offene Spiele werden nicht gewertet.
-- Doppelspeicherung desselben Turniers wird verhindert.
-- Saisonrangliste ansehen startet niemals versehentlich eine neue Saison.
-- Neue Saison nur über eigenen Button und doppelte Sicherheitsabfrage; alte Saison bleibt im Archiv.
+NEU: PLANQUALITÄT UND PLANOPTIMIERUNG
+- Die Planbewertung arbeitet ausschließlich mit der aktuell eingestellten Turnierkonfiguration: aktive Spieler, Felder, Teamgrößen A/B, Runden und Fixierungen.
+- Keine Annahme fester Standard-Teamgrößen oder fester Pausen.
+- Mitspieler und Gegner: maximale Vielfalt pro Spieler hat Vorrang; erst danach werden unvermeidbare Wiederholungen auf Gleichmäßigkeit bewertet.
+- Zusätzlich wird berücksichtigt, wie fair die Zahl unterschiedlicher Kontakte zwischen allen Spielern verteilt ist.
+- Feldverteilung bewertet die mathematisch optimale Verteilung anhand der tatsächlichen Einsätze und der aktuell vorhandenen Felder.
+- A/B-Verteilung bewertet gerade/ungerade tatsächliche Einsatzzahlen passend.
+- Torhüterkontakte werden bei mehreren Torhütern möglichst gleichmäßig bewertet.
+- Die neue Planqualität wird auch zur Auswahl des besten der erzeugten Kandidatenpläne verwendet.
+- Die Qualitätsdetails zeigen Durchschnitt sowie Minimum/Maximum verschiedener Mitspieler und Gegner.
 
-Automatisiert geprüft: Planerzeugung, 22-Spieler-Belegung, Torhüterfixierung, Ergebniswertung, Planqualität, alle Hauptreiter, vorzeitiger und vollständiger Abschluss, Saisonaggregation, Duplikatschutz, Saisonwechsel und Dateiintegrität.
+DATEN
+- Vorhandene Daten aus ht-v114 werden beim ersten Start übernommen; neuer Speicherstand: ht-v115.
